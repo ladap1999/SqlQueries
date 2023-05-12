@@ -1,3 +1,5 @@
+USE BootcampTask
+GO
 CREATE TRIGGER create_vacanciesPM
 ON project
 AFTER INSERT
