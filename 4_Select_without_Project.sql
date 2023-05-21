@@ -1,2 +1,3 @@
-SELECT first_name, last_name, position_id
-FROM  BootcampTask.dbo.employee;
+SELECT *
+FROM  BootcampTask.dbo.employee
+WHERE project_id IS NULL;
